@@ -22,3 +22,11 @@ var npmapi = require('npm-web-api')
 
 Calls `callback` with either an Error or an Array of module names maintained by
 `username`, expressed as a String.
+
+## Contributing
+
+This module was initially created just for `getModulesByUser`. To add more
+methods, please fork and submit a pull request. However:
+
+ - Please don't add dependencies unless they're necessary. `request` should meet
+    most of your needs.
