@@ -23,6 +23,11 @@ var npmapi = require('npm-web-api')
 Calls `callback` with either an Error or an Array of module names maintained by
 `username`, expressed as a String.
 
+### npmapi.getLatest(module, callback)
+
+Calls `callback` with either an Error or an Object of package metadata for
+`module` from it's latest package.json.
+
 ## Contributing
 
 This module was initially created just for `getModulesByUser`. To add more
